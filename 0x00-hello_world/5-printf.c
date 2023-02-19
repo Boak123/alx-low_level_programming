@@ -1,10 +1,17 @@
-#include <stdio.n>
+#include <stdio.h>
+
 /**
- * main - A program that print a line using printf funtion
- * Return: 0 (success)
+ * main - Prints all strings from 0 to 9
+ * Return: Always 0
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n")
-		return (0);
+	int num;
+
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
+	return (0);
 }
