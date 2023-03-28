@@ -2,6 +2,7 @@
 /**
  * print_alphabet - prints out the letters of the alphabet(lowercase)
  */
+
 int main(void)
 {
 	int ch;
@@ -13,4 +14,5 @@ int main(void)
 		ch++;
 	}
 	_putchar('\n');
+	return (0);
 }
